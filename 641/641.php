@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>641</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/10.css" rel="stylesheet" type="text/css"/>
@@ -14,19 +14,19 @@
         $less = new lessc;
         $less->compileFile('less/10.less', 'css/10.css');
         ?>
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery-2.1.4.min.js" ></script>
+        <script src="js/bootstrap.js" ></script>
+        <script src="js/bootstrap.min.js" ></script>
 
     </head>
     <body>
         <div class="mod-custom-1">
-
-            <div class="w3-content w3-display-container" class="backgoud">
+            <div class="row">
+            <div class="w3-content w3-display-container  backgoud">
                 <div class="sc_section margin_top_null margin_bottom_null aligncenter testimonials_custom_block_3">
-                    <img class="mySlides" src="images/8.png" style="width:660px; height: 420px;">
-                    <img class="mySlides" src="images/9.png" style="width:660px; height: 420px;">
-                    <img class="mySlides" src="images/10.png" style="width:660px; height: 420px;">
+                    <img class="mySlides" alt="" src="images/8.png" style="width:1050px; height: 700px;">
+                    <img class="mySlides" alt="" src="images/9.png" style="width:1050px; height: 700px;">
+                    <img class="mySlides" alt="" src="images/10.png" style="width:1050px; height: 700px;">
 
                     <div class="nuthai">
                         <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-
+            </div>
             <script>
                 var myIndex = 0;
                 carousel();
