@@ -18,8 +18,7 @@
                     items: 4
                 }
             }
-        })
-        $('[data-toggle="tooltip"]').tooltip();
+        });
 
     })
 }) (jQuery);

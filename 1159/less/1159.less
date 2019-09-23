@@ -1,75 +1,108 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 28, 2017, 11:23:40 PM
-    Author     : Administrator
-*/
+
 @color: #06c;
 @width-height: 20px;
 @col-white: #fff;
 @col-blue: #106EAA;
-.type-3 {
-    padding: 10px 20px;
+@padding: 10px 20px;
+@width: 100%;
+@z-index: 1;
+@border: 0.5px solid rgba(0,0,0,.15);
+@margin-bottom: 0px;
+@font-weight: 500;
+@line-height: 32px;
+@padding2: 5px 0;
+@left: 110%;
+@padding-top: 40px;
+@font-size: 1.2em;
+@padding-left: 10px;
+@color1: #000;
+@color2: #fcb800;
+@transition: all .25s ease;
+@min-height: 1px;
+@opacity: 0;
+@margin: 12px;
+@padding-bottom: 5px;
+@border-radius: 5px;
+@margin1: 0 0 0 10px;
+@z-index1: 5;
+@padding1: 0;
+@font-size2: 38px;
+@font-weight1: 700;
+@line-height1: 1.65857;
+@transition1: all .3s ease-in-out;
+@transition2: all .15s ease-in-out;
+@font-size1: 1.4em;
+@font-weight2: 400 ;
+@margin-top: 5px;
+@font-size3: 13px;
+@bottom: 28%;
+@right: 0;
+@z-index2: 2;
+@padding3: 10px 0;
+@font-size4: 1.3em;
+@padding4: 10px;
+@color3: black;
+@border-radius1: 50%;
+@opacity1: 1;
+@-webkit-transition: visibility .25s ease,opacity .25s ease, margin .25s ease;
+@width1: 50px;
+@height: 50px;
+@top: 150px;       
+@-webkit-transition1: 0.2s all linear;
+@transition3: 0.2s all linear;
+@color4: #ccc;
+@font-size5: 2em;
+.type-1159 {
+    padding: @padding;
     .owl-carousel {
         display: none;
-        width: 100%;
+        width: @width;
         position: relative;
-        z-index: 1;
+        z-index: @z-index;
     }
     .line {
-        border: 0.5px solid rgba(0,0,0,.15);
+        border: @border;
     }
     .top-title {
         
         display: inline-block;
         .title {
             display: inline-block;
-            margin-bottom: 0px;
-            font-weight: 500;
-            line-height: 32px;
-            padding: 5px 0;
+            margin-bottom: @margin-bottom;
+            font-weight: @font-weight;
+            line-height: @line-height;
+            padding: @padding2;
         }
         .list-category {
-
            position: relative;
-            left: 120%;
+            left: @left;
             float: right;
             list-style: none;
-            padding-top: 40px;
+            padding-top: @padding-top;
             font-family: Work Sans;
-            font-size: 1.2em;
-
+            font-size: @font-size;
             li {
-                padding-left: 10px;
+                padding-left: @padding-left;
                 display: inline-block;
                 a {
-                    color: #000;
+                    color: @color1;
                     text-decoration: none;
                 }
                 a:hover {
-                    color: #fcb800;
-                    transition: all .25s ease;
+                    color: @color2;
+                    transition: @transition;
                 }
             }
-
         }
-    }
-    .owl-carousel .owl-stage {
-
     }
     .owl-carousel .owl-stage-outer {
         position: relative;
         overflow: hidden;
         -webkit-transform: translate3d(0px, 0px, 0px);
-        //margin-top: 50px;
-        //margin-bottom: 50px;
     }
     .owl-carousel .owl-item {
         position: relative;
-        min-height: 1px;
+        min-height: @min-height;
         float: left;
         -webkit-backface-visibility: hidden;
         -webkit-tap-highlight-color: transparent;
@@ -78,89 +111,84 @@ and open the template in the editor.
     .owl-carousel .owl-dots.disabled {display: none; }
     .owl-carousel.owl-loaded {display: block; }
     .owl-carousel.owl-loading {
-        opacity: 0;
+        opacity: @opacity;
         display: block; }
     .owl-carousel{
         .new-sign-up{
             position: relative;
             display: block;
-            margin: 12px;
-            
+            margin: @margin;
             overflow: hidden;
-            padding-bottom: 5px;
-            border-radius: 5px;
+            padding-bottom: @padding-bottom;
+            border-radius: @border-radius;
             background-color: @col-white;
-            transition: all .3s ease-in-out;
+            transition: @transition1;
             a{
                 text-decoration: none;
             }
-            a:hover{
-                
+            a:hover{ 
                 h3{
-                    color: #fcb800;
+                    color: @color2;
                     text-decoration: underline;
                     font-family: Work Sans;
-                    transition: all .15s ease-in-out;
-                }
+                    transition:@transition2;
+                  }
             }
-           
-            
             .count, h3, p {
                 position: relative;
-                margin: 0 0 0 10px;
-                z-index: 5;
-                padding: 0;
+                margin:@margin1;
+                z-index: @z-index1;
+                padding: @padding1;
             }
+            col-md-3
             .count {
-                font-size: 38px;
-                font-weight: 700;
-                line-height: 1.65857;
+                font-size: @font-size2;
+                font-weight: @font-weight1;
+                line-height: @line-height1;
                 color: @col-blue;
             }
             h3 {
                 color: @color;
                 font-family: Work Sans;
-                font-size: 1.4em;
-                font-weight: 400 !important;
+                font-size: @font-size1;
+                font-weight: @font-weight2;
             }
             p {
-                margin-top: 5px;
-                font-size: 13px;
+                margin-top: @margin-top;
+                font-size: @font-size3;
                 color: @color;
             }
             .product-btn {
-                
                 position: absolute;
-                bottom: 28%;
-                right: 0;
-                z-index: 2;
-                width: 100%;
-                padding: 10px 0;
+                bottom: @bottom;
+                right: @right;
+                z-index: @z-index2;
+                width: @width;
+                padding: @padding3;
                 background-color: #fff;
-                opacity: 0;
+                opacity: @opacity;
                 visibility: hidden;
                 .product-list {
-                    font-size: 1.3em;
+                    font-size: @font-size4;
                     a {
-
                         i {
-                            padding: 10px;
-                            color: black;
+                            padding: @padding4;
+                            color: @color3;
                         }
                     }
                     a:hover {
                         display: inline-block;
-                        background: #fcb800;
-                        border-radius: 50%;
+                        background: @color2;
+                        border-radius: @border-radius1;
                     }
                 }
             }
         }
         .new-sign-up:hover {
             .product-btn {
-                opacity: 1;
+                opacity: @opacity1;
                 visibility: visible;
-                -webkit-transition: visibility .25s ease,opacity .25s ease, margin .25s ease;
+                -webkit-transition: @-webkit-transition;
             }
         }       
     }
@@ -184,36 +212,35 @@ and open the template in the editor.
             -webkit-align-items: center;
             -ms-flex-align: center;
             align-items: center;
-            width: 50px;
-            height: 50px;
+            width: @width1;
+            height: @height;
             position: absolute;
-            top: 150px;
-            
-            
-            
-            -webkit-transition: 0.2s all linear;
-            transition: 0.2s all linear;
-            color: #ccc;
-            font-size: 2em;
-
+            top: @top;
+            -webkit-transition: @-webkit-transition1;
+            transition: @transition3;
+            color: @color4;
+            font-size: @font-size5;
             text-decoration: none;
         }
-
         .owl-next:hover, .owl-prev:hover{
-            
             color: black;
-            -webkit-transition: 0.2s all linear;
-            transition: 0.2s all linear;
-
+            -webkit-transition: @-webkit-transition1;
+            transition: @transition3;
         }
     }
 }
     @media (max-width: 1280px){
+        @left: -5rem;
+        @right: -5rem;
+        @width: 50px;
+        @height: 50px;
+        @right1: -2rem;
+        @left2: -2rem;
         .owl-prev{
-            left: -5rem !important;
+            left: @left;
         }
         .owl-next{
-            right: -5rem !important;
+            right: @right !important;
         }
         .owl-nav {
             .owl-next, .owl-prev {
@@ -221,17 +248,21 @@ and open the template in the editor.
                 display: -webkit-flex;
                 display: -ms-flexbox;
                 display: flex;
-                width: 50px;
-                height: 50px;
+                width:@width;
+                height: @height;
             }
         }
     }
     @media (max-width: 1140px){
+        @left: -5rem;
+        @right: -5rem;
+        @width: 50px;
+        @height: 50px;
         .owl-prev{
-            left: -5rem !important;
+            left: @left;
         }
         .owl-next{
-            right: -5rem !important;
+            right: @right;
         }
         .owl-nav {
             .owl-next, .owl-prev {
@@ -239,53 +270,35 @@ and open the template in the editor.
                 display: -webkit-flex;
                 display: -ms-flexbox;
                 display: flex;
-                width: 50px;
-                height: 50px;
+                width: @width;
+                height: @height;
             }
         }
     }
     @media (max-width: 1024px){
-        //.owl-prev{
-        //    left: -5rem !important;
-        //}
-        //.owl-next{
-        //    right: -5rem !important;
-        //}
+       
         .owl-nav {
             .owl-next, .owl-prev {
-                //display: -webkit-box;
-                //display: -webkit-flex;
-                //display: -ms-flexbox;
-                display: none;
-                //width: 50px;
-                //height: 50px;
+                display: none;  
             }
         }
     }
     @media (max-width: 768px){
-        //.owl-prev{
-        //    left: -5rem !important;
-        //}
-        //.owl-next{
-        //    right: -5rem !important;
-        //}
         .owl-nav {
             .owl-next, .owl-prev {
-                //display: -webkit-box;
-                //display: -webkit-flex;
-                //display: -ms-flexbox;
                 display: none;
-                //width: 50px;
-                //height: 50px;
             }
         }
     }
     @media (max-width: 480px){
+
+        @right1: -2rem;
+        @left2: -2rem;
         .owl-next{
-             right: -2rem;
+             right: @right1;
          }
         .owl-prev{
-            left: -2rem;
+            left: @left2;
         }
         .owl-nav {
             .owl-next, .owl-prev{
@@ -294,11 +307,13 @@ and open the template in the editor.
         }
     }
     @media (max-width: 320px){
+        @right1: -2rem;
+        @left2: -2rem;
         .owl-next{
-            right: -2rem;
+            right: @right1;
         }
         .owl-prev{
-            left: -2rem;
+            left: @left2;
         }
         .owl-nav {
             .owl-next, .owl-prev{
@@ -306,4 +321,3 @@ and open the template in the editor.
             }
         }
     }
-

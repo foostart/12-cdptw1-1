@@ -8,18 +8,17 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-25-36">
+<div class="type-1157">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2">
             </div>
-            <div class="col-md-10">
-                <div class="row content5">
-                    <div class="col-md-6">
-
-                    </div> 
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel5">
+                <div class="col-md-10">
+                    <div class="row content5">
+                        <div class="col-md-6">
+                        </div> 
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="x_panel5">
                             <div class="x_title">
                                 <h2><i class="fa fa-align-left "></i> <a href="#"><span onclick="fun()"> Collapsible / Accordion </span></a><small>Sessions</small></h2>
                                 <ul class="nav navbar-right panel_toolbox">

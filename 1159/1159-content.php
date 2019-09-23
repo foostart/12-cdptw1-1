@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-3">
+<div class="type-1159">
     <div class="container">
         <div class="top-title">
             <div class="title">
@@ -61,7 +61,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="new-sign-up">
                     <a href="#">
-                        
                         <img src="./images/24a.jpg" class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                         <h3>DJI Phantom 4 Quadcopter Camera</h3>
                         <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
@@ -85,7 +84,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="new-sign-up">
                     <a href="#">
-                        
                         <img src="./images/38a.jpg" class="img-responsive" alt="Gopro Quick Sliver Hero4 24K HD Camera">
                         <h3>Gopro Quick Sliver Hero4 24K HD Camera</h3>
                         <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
@@ -109,7 +107,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="new-sign-up">
                     <a href="#">
-                        
                         <img src="./images/46a.jpg" class="img-responsive" alt="Nikon Coolpix 24 MP Camera">
                         <h3>Nikon Coolpix 24 MP Camera</h3>
                         <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
@@ -132,8 +129,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="new-sign-up">
-                    <a href="#">
-                        
+                    <a href="#">                       
                         <img src="./images/48a.jpg" class="img-responsive" alt="Sony HD 1080p, 13.5MP White Version">
                         <h3>Sony HD 1080p, 13.5MP White Version</h3>
                         <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
@@ -157,7 +153,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="new-sign-up">
                     <a href="#">
-                        
                         <img src="./images/49a.jpg" class="img-responsive" alt="Amcrest Security Camera">
                         <h3>Amcrest Security Camera</h3>
                         <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
@@ -181,7 +176,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="new-sign-up">
                     <a href="#">
-                        
                         <img src="./images/50a.jpg" class="img-responsive" alt="DBPOWER T20 1500 Lumens LCD Projector">
                         <h3>DBPOWER T20 1500 Lumens LCD Projector</h3>
                         <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
@@ -203,7 +197,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>

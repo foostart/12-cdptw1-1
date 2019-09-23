@@ -1,0 +1,48 @@
+@comit : 13px;
+.type-1151 {
+    @color:#73879C;
+    @padding-left:30px;
+    @border-left:0;
+    @width-left:45%;
+    @width-right:55%;
+    @margin:20px 0 0 0;
+    @margin-bottom: 10px;
+    @border-radius: 25px 0 0 25px;
+    @border: 1px solid rgba(221,226,232,.49);
+    @border-radius1: 0 25px 25px 0;
+    @color1: #93A2B2;
+    .page-title{
+        .title_left {
+            width: @width-left;
+            float: left;
+            display: block;
+        }
+        h3{
+            color:@color;
+        }
+        .title_right {
+            width: @width-right;
+            float: right;
+            display: block;
+        }
+        .pull-right {
+            margin: @margin;
+        }
+        .input-group {
+            margin-bottom: @margin-bottom;
+        }
+        .form-control {
+            border-radius: @border-radius;
+            padding-left: @padding-left;
+            border: @border;
+        }
+        .input-group-btn button {
+            border-radius: @border-radius1; 
+            border: @border;
+            border-left: @border-left;
+            color: @color1;       
+        }  
+    }
+}
+
+
