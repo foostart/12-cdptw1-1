@@ -42,7 +42,7 @@
 @font-size4: 1.3em;
 @padding4: 10px;
 @color3: black;
-@border-radius1: 50%;
+@border-radius1: 60%;
 @opacity1: 1;
 @-webkit-transition: visibility .25s ease,opacity .25s ease, margin .25s ease;
 @width1: 50px;
@@ -126,6 +126,9 @@
             a{
                 text-decoration: none;
             }
+            .far fa-star:hover{
+                background:#000;
+            }
             a:hover{ 
                 h3{
                     color: @color2;
@@ -192,6 +195,7 @@
             }
         }       
     }
+
     .owl-nav   {
         .owl-prev{
             left: -5rem;
@@ -229,13 +233,12 @@
         }
     }
 }
-    @media (max-width: 1280px){
-        @left: -5rem;
-        @right: -5rem;
+@width-1280:1280px;
+    @media (max-width: @width-1280){
+        @left: -4rem;
+        @right: -4rem;
         @width: 50px;
         @height: 50px;
-        @right1: -2rem;
-        @left2: -2rem;
         .owl-prev{
             left: @left;
         }
@@ -253,7 +256,8 @@
             }
         }
     }
-    @media (max-width: 1140px){
+	@width-1200: 1200px;
+    @media (max-width: @width-1200){
         @left: -5rem;
         @right: -5rem;
         @width: 50px;
@@ -275,7 +279,8 @@
             }
         }
     }
-    @media (max-width: 1024px){
+	@width-992:922px;
+    @media (max-width: @width-992){
        
         .owl-nav {
             .owl-next, .owl-prev {
@@ -283,14 +288,16 @@
             }
         }
     }
-    @media (max-width: 768px){
+	@width-768: 768px;
+    @media (max-width: @width-768){
         .owl-nav {
             .owl-next, .owl-prev {
                 display: none;
             }
         }
     }
-    @media (max-width: 480px){
+	@width-480: 480px;
+    @media (max-width: @width-480){
 
         @right1: -2rem;
         @left2: -2rem;
@@ -306,9 +313,10 @@
             }
         }
     }
-    @media (max-width: 320px){
-        @right1: -2rem;
-        @left2: -2rem;
+	@width-320px: 320px;
+    @media (min-width: 320px){
+        @right1: -1rem;
+        @left2: -1rem;
         .owl-next{
             right: @right1;
         }

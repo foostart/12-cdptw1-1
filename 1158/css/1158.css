@@ -52,10 +52,16 @@
   background-color: #fff;
 }
 .type-1158 .content6 .btn-default:hover {
-  color: #84913f;
+  color: #000;
+  background: #afc43e;
   text-decoration: none;
 }
-@media (min-width: 5000px) {
+@media (max-width: 1200px) {
+  small {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
   small {
     display: none;
   }

@@ -3,7 +3,8 @@
     @color1: #73879C;
     @font-size:13px;
     @color2: #5A738E;
-    @color4:#84913f;
+    @color4:#afc43e;
+    @color5:#000;
     @width: 100%;
     @padding: 10px 10px;
     @background:#fff;
@@ -72,6 +73,7 @@
             color:@color3;
            
         }
+       
         .btn{
             font-size:@font-size2;
             border-radius: @border-radius;
@@ -80,13 +82,23 @@
            background-color: @background-color;
         }
         .btn-default:hover {
-    color: @color4;
+    color: @color5;
+    background: @color4;
     text-decoration: none;
 }   
+
     }
     
 }
-@media(min-width:5000px){
+@width-4000:1200px;
+@media(max-width:@width-4000){
+    small{
+        display: none;
+    }
+   
+}
+@width-320:320px;
+@media(max-width:@width-320){
     small{
         display: none;
     }

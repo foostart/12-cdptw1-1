@@ -14,7 +14,7 @@
                    <div class="col-md-6 col-sm-6 col-xs-12">
                        <div class="x_panel6"> 
                        <div class="x_panel">
-                       <h2>Tooltips <small>Hover to view</small></h2>
+                           <h2>Tooltips <small>Hover to view</small></h2>
                        <ul class="nav navbar-right panel_toolbox">
                                    <li><a data-toggle="collapse" href="#element6"><i class="fa fa-chevron-up"></i></a>
                                    </li>

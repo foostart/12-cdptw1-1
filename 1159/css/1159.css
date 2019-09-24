@@ -77,6 +77,9 @@
 .type-1159 .owl-carousel .new-sign-up a {
   text-decoration: none;
 }
+.type-1159 .owl-carousel .new-sign-up .far fa-star:hover {
+  background: #000;
+}
 .type-1159 .owl-carousel .new-sign-up a:hover h3 {
   color: #fcb800;
   text-decoration: underline;
@@ -130,7 +133,7 @@
 .type-1159 .owl-carousel .new-sign-up .product-btn .product-list a:hover {
   display: inline-block;
   background: #fcb800;
-  border-radius: 50%;
+  border-radius: 60%;
 }
 .type-1159 .owl-carousel .new-sign-up:hover .product-btn {
   opacity: 1;
@@ -175,10 +178,10 @@
 }
 @media (max-width: 1280px) {
   .owl-prev {
-    left: -5rem;
+    left: -4rem;
   }
   .owl-next {
-    right: -5rem !important;
+    right: -4rem !important;
   }
   .owl-nav .owl-next,
   .owl-nav .owl-prev {
@@ -190,7 +193,7 @@
     height: 50px;
   }
 }
-@media (max-width: 1140px) {
+@media (max-width: 1200px) {
   .owl-prev {
     left: -5rem;
   }
@@ -207,7 +210,7 @@
     height: 50px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 922px) {
   .owl-nav .owl-next,
   .owl-nav .owl-prev {
     display: none;
@@ -231,12 +234,12 @@
     display: none;
   }
 }
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .owl-next {
-    right: -2rem;
+    right: -1rem;
   }
   .owl-prev {
-    left: -2rem;
+    left: -1rem;
   }
   .owl-nav .owl-next,
   .owl-nav .owl-prev {
