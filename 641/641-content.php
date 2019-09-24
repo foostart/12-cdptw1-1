@@ -6,7 +6,7 @@
         <title></title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/10.css" rel="stylesheet" type="text/css"/>
+        <link href="css/641.css" rel="stylesheet" type="text/css"/>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -29,7 +29,7 @@
                     <img class="mySlides" src="images/10.png" style="width:660px; height: 420px;">
 
                     <div class="nuthai">
-                        <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+                        <a href="#" class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
                         <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
                     </div>
                 </div>

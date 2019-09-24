@@ -31,3 +31,6 @@
   border: 22px solid #ddd;
   color: #96bd42;
 }
+.mod-custom-1 .w3-btn-floating:hover {
+  background: #edf032;
+}
