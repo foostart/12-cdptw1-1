@@ -14,7 +14,7 @@
   opacity: 1;
 }
 .type-1157 .content5 .x_title {
-  border-bottom: 2px solid #E6E9ED;
+  border-bottom: 1px solid #E6E9ED;
   padding: 1px 5px 6px;
   margin-bottom: 0px;
 }
@@ -81,7 +81,7 @@
     display: none;
   }
   h2 {
-    width: 62%;
+    width: 60%;
     font-size: 17px;
   }
 }

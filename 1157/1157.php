@@ -35,6 +35,6 @@
         <script src="<?php echo $url_path ?>/js/close-element-2.js"></script>
     </head>
     <body>   
-         <?php  $dir_block.include'1157-content.php'; ?>
+         <?php  include'./1157-content.php'; ?>
     </body>
 </html>

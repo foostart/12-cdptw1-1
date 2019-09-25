@@ -6,7 +6,7 @@
     @padding1:10px 17px;
     @border:1px solid #E6E9ED;
     @opacity:1;
-    @border-bottom:2px solid #E6E9ED;
+    @border-bottom:1px solid #E6E9ED;
     @margin-bottom:15px;
     @margin-right:0px;
     @margin:5px 0 6px;
@@ -106,8 +106,9 @@
         }
     }
 }
-@media(max-width:1200px){
-    @h2-width:62%;
+@max-1200:1200px;
+@media(max-width:@max-1200){
+    @h2-width:60%;
     @font-size3:17px;
     small{
         display: none;

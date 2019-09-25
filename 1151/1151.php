@@ -31,6 +31,6 @@
         <link href="../1151/css/1151.css" rel="stylesheet" type="text/css" />
     </head>
     <body>   
-            <?php  $dir_block.include'1151-content.php'; ?>
+            <?php  include'./1151-content.php'; ?>
     </body>
 </html>
