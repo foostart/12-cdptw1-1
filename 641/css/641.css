@@ -1,38 +1,36 @@
-.style-641 .testimonials_custom_block_3 {
+.mod-custom-1 .testimonials_custom_block_3 {
   background-position: center !important;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
-  height: 980px;
+  height: 1000px;
   background-image: url(../images/5.jpg);
 }
-.style-641 .nuthai {
-  padding-right: 110px;
+.mod-custom-1 .nuthai {
+  padding-right: 100px;
   padding-left: 50px;
-  margin: -120px;
-  font-size: 1.5em;
+  margin: -170px;
+  font-size: 2.5em;
 }
-.style-641 .mySlides {
+.mod-custom-1 .mySlides {
   margin: auto;
   padding-top: 100px;
-  padding-right: 60px;
+  padding-right: 50px;
   margin-bottom: 10px;
-  height: 560px;
-  width: 920px;
 }
-.style-641 .w3-display-container {
+.mod-custom-1 .w3-display-container {
   text-align: center;
 }
-.style-641 .w3-display-left {
+.mod-custom-1 .w3-display-left {
   background-color: #f6f7f3;
-  border: 21px solid #ddd;
+  border: 22px solid #ddd;
   color: #96bd42;
 }
-.style-641 .w3-display-right {
+.mod-custom-1 .w3-display-right {
   background-color: #f6f7f3;
-  border: 21px solid #ddd;
+  border: 22px solid #ddd;
   color: #96bd42;
 }
-.style-641 .w3-btn-floating:hover {
+.mod-custom-1 .w3-btn-floating:hover {
   background: #edf032;
 }

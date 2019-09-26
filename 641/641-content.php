@@ -1,32 +1,40 @@
-<?php
-$url_host = $_SERVER['HTTP_HOST'];
+<!DOCTYPE html>
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/641.css" rel="stylesheet" type="text/css"/>
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/641.less', 'css/641.css');
+        ?>
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+    </head>
+    <body>
+        <div class="mod-custom-1">
 
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?>
-
-    <div class="row">
-        <div class="style-641">
-            <div class="w3-content w3-display-container" backgoud>
+            <div class="w3-content w3-display-container backgoud">
                 <div class="sc_section margin_top_null margin_bottom_null aligncenter testimonials_custom_block_3">
-                    <img class="mySlides" src="images/8.png">
-                    <img class="mySlides" src="images/9.png">
-                    <img class="mySlides" src="images/10.png">
+                    <img class="mySlides" src="images/8.png" style="width:660px; height: 420px;">
+                    <img class="mySlides" src="images/9.png" style="width:660px; height: 420px;">
+                    <img class="mySlides" src="images/10.png" style="width:660px; height: 420px;">
+
                     <div class="nuthai">
-                        <a href="#" class="w3-btn-floating w3-display-left" onclick="plusDivs(-2)">&#10094;</a>
-                        <a class="w3-btn-floating w3-display-right" onclick="plusDivs(2)">&#10095;</a>
+                        <a href="#" class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+                        <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+
             <script>
                 var myIndex = 0;
                 carousel();
@@ -68,4 +76,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     x[slideIndex - 1].style.display = "block";
                 }
             </script>        
-
+        </div>
+    </body>
+</html>
