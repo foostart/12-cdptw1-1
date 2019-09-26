@@ -1,6 +1,10 @@
 .type-1157 .content5 {
   color: #246dba;
 }
+.type-1157 .content5 .col-md-6 {
+  float: right;
+  margin-top: 20px;
+}
 .type-1157 .content5 a {
   color: #5A738E;
   text-decoration: none;

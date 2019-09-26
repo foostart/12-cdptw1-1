@@ -8,16 +8,12 @@
 @z-index: 1;
 @border: 0.5px solid rgba(0,0,0,.15);
 @margin-bottom: 0px;
-@font-weight: 500;
+@font-weight: 300;
 @line-height: 32px;
 @padding2: 5px 0;
-@left: 110%;
-@padding-top: 40px;
-@font-size: 1.2em;
-@padding-left: 10px;
-@color1: #000;
+@padding-left: 60px;
+@color-a: #000;
 @color2: #fcb800;
-@transition: all .25s ease;
 @min-height: 1px;
 @opacity: 0;
 @margin: 12px;
@@ -28,9 +24,7 @@
 @padding1: 0;
 @font-size2: 38px;
 @font-weight1: 700;
-@line-height1: 1.65857;
-@transition1: all .3s ease-in-out;
-@transition2: all .15s ease-in-out;
+@line-height-count: 1.65857;
 @font-size1: 1.4em;
 @font-weight2: 400 ;
 @margin-top: 5px;
@@ -40,20 +34,42 @@
 @z-index2: 2;
 @padding3: 10px 0;
 @font-size4: 1.3em;
-@padding4: 10px;
+@padding-i: 10px;
 @color3: black;
 @border-radius1: 60%;
 @opacity1: 1;
-@-webkit-transition: visibility .25s ease,opacity .25s ease, margin .25s ease;
 @width1: 50px;
 @height: 50px;
 @top: 150px;       
-@-webkit-transition1: 0.2s all linear;
-@transition3: 0.2s all linear;
 @color4: #ccc;
-@font-size5: 2em;
+@font-size-owl: 2em;
+@navhai-height:57px;
 .type-1159 {
     padding: @padding;
+    .navhai{
+        height: @navhai-height;
+    }
+    .navbar-default {
+    background-color: @col-white; 
+     border-color: @col-white;
+    }
+    .navbar {
+        width: fit-content;
+        float: right;
+        background: @col-white;
+         li {
+                padding-left: @padding-left;
+                display: inline-block;
+                a {
+                    color: @color-a;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: @color2;
+                    transition: all .25s ease;
+                }
+            }
+    }
     .owl-carousel {
         display: none;
         width: @width;
@@ -73,27 +89,7 @@
             line-height: @line-height;
             padding: @padding2;
         }
-        .list-category {
-           position: relative;
-            left: @left;
-            float: right;
-            list-style: none;
-            padding-top: @padding-top;
-            font-family: Work Sans;
-            font-size: @font-size;
-            li {
-                padding-left: @padding-left;
-                display: inline-block;
-                a {
-                    color: @color1;
-                    text-decoration: none;
-                }
-                a:hover {
-                    color: @color2;
-                    transition: @transition;
-                }
-            }
-        }
+       
     }
     .owl-carousel .owl-stage-outer {
         position: relative;
@@ -122,7 +118,7 @@
             padding-bottom: @padding-bottom;
             border-radius: @border-radius;
             background-color: @col-white;
-            transition: @transition1;
+            transition: all .3s ease-in-out;
             a{
                 text-decoration: none;
             }
@@ -132,14 +128,13 @@
             a:hover{ 
                 h3{
                     color: @color2;
-                    text-decoration: underline;
                     font-family: Work Sans;
-                    transition:@transition2;
+                    transition:all .15s ease-in-out;
                   }
             }
             .count, h3, p {
                 position: relative;
-                margin:@margin1;
+                margin:@margin1; 
                 z-index: @z-index1;
                 padding: @padding1;
             }
@@ -147,7 +142,7 @@
             .count {
                 font-size: @font-size2;
                 font-weight: @font-weight1;
-                line-height: @line-height1;
+                line-height: @line-height-count;
                 color: @col-blue;
             }
             h3 {
@@ -175,7 +170,7 @@
                     font-size: @font-size4;
                     a {
                         i {
-                            padding: @padding4;
+                            padding:@padding-i;
                             color: @color3;
                         }
                     }
@@ -191,17 +186,17 @@
             .product-btn {
                 opacity: @opacity1;
                 visibility: visible;
-                -webkit-transition: @-webkit-transition;
+                -webkit-transition: visibility .25s ease,opacity .25s ease, margin .25s ease;
             }
         }       
     }
 
     .owl-nav   {
         .owl-prev{
-            left: -5rem;
+            left: -3rem;
         }
         .owl-next{
-            right: -5rem;
+            right: -3rem;
         }
         .owl-next, .owl-prev{
             display: -webkit-box;
@@ -220,16 +215,16 @@
             height: @height;
             position: absolute;
             top: @top;
-            -webkit-transition: @-webkit-transition1;
-            transition: @transition3;
+            -webkit-transition: 0.2s all linear;
+            transition: 0.2s all linear;
             color: @color4;
-            font-size: @font-size5;
+            font-size: @font-size-owl;
             text-decoration: none;
         }
         .owl-next:hover, .owl-prev:hover{
             color: black;
-            -webkit-transition: @-webkit-transition1;
-            transition: @transition3;
+            -webkit-transition:  0.2s all linear;
+            transition: 0.2s all linear;
         }
     }
 }

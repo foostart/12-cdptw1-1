@@ -9,9 +9,9 @@
 <div class="type-1158">
    <div class="container-fluid">
        <div class="row">
-           <div class="col-md-10">
+           <div class="col-md-12">
                <div class="row content6">
-                   <div class="col-md-6 col-sm-6 col-xs-12">
+                   <div class="col-md-12 col-sm-12 col-xs-12">
                        <div class="x_panel6"> 
                        <div class="x_panel">
                            <h2>Tooltips <small>Hover to view</small></h2>

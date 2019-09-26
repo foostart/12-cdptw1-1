@@ -1,13 +1,14 @@
 .type-1158 .content6 {
   color: #73879C;
-  font-size: 13px;
+  font-size: 12px;
 }
 .type-1158 .content6 a {
   color: #5A738E;
   text-decoration: none;
 }
 .type-1158 .content6 .x_panel6 {
-  width: 100%;
+  margin-top: 20px;
+  width: 40%;
   padding: 10px 10px;
   display: inline-block;
   background: #fff;
@@ -55,11 +56,6 @@
   color: #000;
   background: #afc43e;
   text-decoration: none;
-}
-@media (max-width: 1200px) {
-  small {
-    display: none;
-  }
 }
 @media (max-width: 320px) {
   small {

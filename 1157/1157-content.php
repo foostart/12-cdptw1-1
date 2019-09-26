@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-10">
                     <div class="row content5">
                         <div class="col-md-6">
-                        </div> 
+                       
                             <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="x_panel5">
                             <div class="x_title">
@@ -111,6 +111,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div> 
+                  </div> 
                 </div>
             </div>
         </div>

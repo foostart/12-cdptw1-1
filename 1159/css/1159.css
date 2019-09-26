@@ -1,6 +1,30 @@
 .type-1159 {
   padding: 10px 20px;
 }
+.type-1159 .navhai {
+  height: 57px;
+}
+.type-1159 .navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+.type-1159 .navbar {
+  width: fit-content;
+  float: right;
+  background: #fff;
+}
+.type-1159 .navbar li {
+  padding-left: 60px;
+  display: inline-block;
+}
+.type-1159 .navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+.type-1159 .navbar li a:hover {
+  color: #fcb800;
+  transition: all .25s ease;
+}
 .type-1159 .owl-carousel {
   display: none;
   width: 100%;
@@ -16,30 +40,9 @@
 .type-1159 .top-title .title {
   display: inline-block;
   margin-bottom: 0px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 32px;
   padding: 5px 0;
-}
-.type-1159 .top-title .list-category {
-  position: relative;
-  left: 110%;
-  float: right;
-  list-style: none;
-  padding-top: 40px;
-  font-family: Work Sans;
-  font-size: 1.2em;
-}
-.type-1159 .top-title .list-category li {
-  padding-left: 10px;
-  display: inline-block;
-}
-.type-1159 .top-title .list-category li a {
-  color: #000;
-  text-decoration: none;
-}
-.type-1159 .top-title .list-category li a:hover {
-  color: #fcb800;
-  transition: all .25s ease;
 }
 .type-1159 .owl-carousel .owl-stage-outer {
   position: relative;
@@ -82,7 +85,6 @@
 }
 .type-1159 .owl-carousel .new-sign-up a:hover h3 {
   color: #fcb800;
-  text-decoration: underline;
   font-family: Work Sans;
   transition: all .15s ease-in-out;
 }
@@ -141,10 +143,10 @@
   -webkit-transition: visibility .25s ease, opacity .25s ease, margin .25s ease;
 }
 .type-1159 .owl-nav .owl-prev {
-  left: -5rem;
+  left: -3rem;
 }
 .type-1159 .owl-nav .owl-next {
-  right: -5rem;
+  right: -3rem;
 }
 .type-1159 .owl-nav .owl-next,
 .type-1159 .owl-nav .owl-prev {

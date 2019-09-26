@@ -17,30 +17,39 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="title">
                 <h2>Cameras & Videos</h2>
             </div>
-            <ul class="list-category">
-                <li>
-                    <a href="#">Sony</a>
-                </li>
-                <li>
-                    <a href="#">LG</a>
-                </li>
-                <li>
-                    <a href="#">Nikon</a>
-                </li>
-                <li>
-                    <a href="#">Accessories</a>
-                </li>
-            </ul>
+        </div>
+        <div class="navhai">
+            <nav class="navbar navbar-default" >
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Sony</a></li>
+                        <li><a href="#">LG</a></li>
+                        <li><a href="#">Nikon</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
         <hr class="line">
         <div class="row">
             <div class="owl-carousel owl-theme owl-loaded owl-drag">
                 <div class="new-sign-up">
                     <a href="#">
-                        
+
                         <img src="./images/22a.jpg" class="img-responsive" alt="Fujifilm Instax Mini Neo Instant Film Camera">
                         <h3>Fujifilm Instax Mini Neo Instant Film Camera</h3>
-                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>                    
+                       <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
                     </a>
                     <div class="product-btn row">
                         <div class="product-list">
@@ -63,7 +72,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a href="#">
                         <img src="./images/24a.jpg" class="img-responsive" alt="DJI Phantom 4 Quadcopter Camera">
                         <h3>DJI Phantom 4 Quadcopter Camera</h3>
-                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                       <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
                     </a>
                     <div class="product-btn row">
                         <div class="product-list">
@@ -86,7 +95,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a href="#">
                         <img src="./images/38a.jpg" class="img-responsive" alt="Gopro Quick Sliver Hero4 24K HD Camera">
                         <h3>Gopro Quick Sliver Hero4 24K HD Camera</h3>
-                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                       <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p> 
                     </a>
                     <div class="product-btn row">
                         <div class="product-list">
@@ -109,7 +118,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a href="#">
                         <img src="./images/46a.jpg" class="img-responsive" alt="Nikon Coolpix 24 MP Camera">
                         <h3>Nikon Coolpix 24 MP Camera</h3>
-                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>    
                     </a>
                     <div class="product-btn row">
                         <div class="product-list">
@@ -132,7 +141,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a href="#">                       
                         <img src="./images/48a.jpg" class="img-responsive" alt="Sony HD 1080p, 13.5MP White Version">
                         <h3>Sony HD 1080p, 13.5MP White Version</h3>
-                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>  
                     </a>
                     <div class="product-btn row">
                         <div class="product-list">
@@ -155,7 +164,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a href="#">
                         <img src="./images/49a.jpg" class="img-responsive" alt="Amcrest Security Camera">
                         <h3>Amcrest Security Camera</h3>
-                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                       <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>   
                     </a>
                     <div class="product-btn row">
                         <div class="product-list">
@@ -178,7 +187,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a href="#">
                         <img src="./images/50a.jpg" class="img-responsive" alt="DBPOWER T20 1500 Lumens LCD Projector">
                         <h3>DBPOWER T20 1500 Lumens LCD Projector</h3>
-                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                       <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
                     </a>
                     <div class="product-btn row">
                         <div class="product-list">
