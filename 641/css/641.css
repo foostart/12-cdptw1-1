@@ -1,36 +1,38 @@
-.mod-custom-1 .testimonials_custom_block_3 {
+.style-641 .testimonials_custom_block_3 {
   background-position: center !important;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat;
   background-size: cover !important;
   width: 100%;
-  height: 1000px;
+  height: 980px;
   background-image: url(../images/5.jpg);
 }
-.mod-custom-1 .nuthai {
-  padding-right: 100px;
+.style-641 .nuthai {
+  padding-right: 110px;
   padding-left: 50px;
-  margin: -170px;
-  font-size: 2.5em;
+  margin: -120px;
+  font-size: 1.5em;
 }
-.mod-custom-1 .mySlides {
+.style-641 .mySlides {
   margin: auto;
   padding-top: 100px;
-  padding-right: 50px;
+  padding-right: 60px;
   margin-bottom: 10px;
+  height: 560px;
+  width: 920px;
 }
-.mod-custom-1 .w3-display-container {
+.style-641 .w3-display-container {
   text-align: center;
 }
-.mod-custom-1 .w3-display-left {
+.style-641 .w3-display-left {
   background-color: #f6f7f3;
-  border: 22px solid #ddd;
+  border: 21px solid #ddd;
   color: #96bd42;
 }
-.mod-custom-1 .w3-display-right {
+.style-641 .w3-display-right {
   background-color: #f6f7f3;
-  border: 22px solid #ddd;
+  border: 21px solid #ddd;
   color: #96bd42;
 }
-.mod-custom-1 .w3-btn-floating:hover {
+.style-641 .w3-btn-floating:hover {
   background: #edf032;
 }
