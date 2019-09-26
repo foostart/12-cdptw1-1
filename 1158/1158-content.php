@@ -1,13 +1,12 @@
-<?php
-    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
-    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-    preg_match_all($pattern_uri, __DIR__, $matches);
-    $url_path = $url_host . $matches[1][0];
-    $url_path = str_replace('\\', '/', $url_path);
-?>
+
 <div class="type-1158">
    <div class="container-fluid">
+       <div class="gg" style=" text-align: center">
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+1158
+</button>
+</div>
+   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
        <div class="row">
            <div class="col-md-12">
                <div class="row content6">
@@ -39,6 +38,5 @@
        </div>
    </div>
 </div>
-
-  
+</div>
         

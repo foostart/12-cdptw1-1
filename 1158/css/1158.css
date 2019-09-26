@@ -7,18 +7,20 @@
   text-decoration: none;
 }
 .type-1158 .content6 .x_panel6 {
-  margin-top: 20px;
-  width: 40%;
+  margin-top: 10px;
   padding: 10px 10px;
+  margin-left: 4%;
   display: inline-block;
   background: #fff;
   border: 1px solid #E6E9ED;
+  width: auto;
   opacity: 1;
 }
 .type-1158 .content6 .x_title {
   border-bottom: 1px solid #E6E9ED;
   padding: 30px 5px 6px;
   margin-bottom: 15px;
+  width: 500px;
 }
 .type-1158 .content6 .x_title .navbar-right {
   margin-right: 0px;

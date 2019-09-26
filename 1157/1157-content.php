@@ -8,6 +8,12 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div class="gg" style=" text-align: center">
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  1157
+</button>
+</div>
+   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 <div class="type-1157">
     <div class="container-fluid">
         <div class="row">
@@ -116,4 +122,5 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+</div>
 </div>
