@@ -2,7 +2,7 @@
     @color:#fff;
     @font-size:18px;
     @padding:1px 5px 6px;
-    @width:115%;
+    @width:100%;
     @padding1:15px 17px;
     @border:1px solid #E6E9ED;
     @opacity:1;
@@ -30,8 +30,8 @@
    
     .content5{
         
-            margin-left: -845px;
-            margin-right: 69px;
+            margin-left: -350px;
+            margin-right: -35px;
         
         @margin-top-6:20px;
         .col-md-6 {
@@ -83,9 +83,7 @@
             float: left;
             cursor: pointer;
         }
-        .panel_toolbox>li>a:hover{
-            background: @color4;
-        }
+        
         .panel_toolbox>li>a {
             padding: @padding2;
             color: @color3;
@@ -132,4 +130,9 @@
       font-size:@font-size3;
     }
 }
-
+@max-320:360px;
+@media(max-width:@max-320){
+     small{
+        display: none;
+    }
+}
