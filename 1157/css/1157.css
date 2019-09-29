@@ -1,7 +1,6 @@
-.type-1157 .gg {
-  text-align: center;
-}
 .type-1157 .content5 {
+  margin-left: -845px;
+  margin-right: 69px;
   color: #337ab7;
 }
 .type-1157 .content5 .col-md-6 {
@@ -14,7 +13,7 @@
   text-decoration: none;
 }
 .type-1157 .content5 .x_panel5 {
-  width: 150%;
+  width: 115%;
   padding: 15px 17px;
   display: inline-block;
   background: #fff;
@@ -51,6 +50,9 @@
 .type-1157 .content5 .panel_toolbox>li {
   float: left;
   cursor: pointer;
+}
+.type-1157 .content5 .panel_toolbox>li>a:hover {
+  background: #337ab7;
 }
 .type-1157 .content5 .panel_toolbox>li>a {
   padding: 5px;
