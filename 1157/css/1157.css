@@ -1,6 +1,7 @@
+.type-1157 .gg {
+  text-align: center;
+}
 .type-1157 .content5 {
-  margin-left: -350px;
-  margin-right: -35px;
   color: #337ab7;
 }
 .type-1157 .content5 .col-md-6 {
@@ -13,7 +14,7 @@
   text-decoration: none;
 }
 .type-1157 .content5 .x_panel5 {
-  width: 100%;
+  width: 115%;
   padding: 15px 17px;
   display: inline-block;
   background: #fff;
@@ -90,10 +91,5 @@
   h2 {
     width: 60%;
     font-size: 17px;
-  }
-}
-@media (max-width: 360px) {
-  small {
-    display: none;
   }
 }
