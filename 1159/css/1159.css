@@ -7,6 +7,7 @@
 .type-1159 .navbar-default {
   background-color: #fff;
   border-color: #fff;
+  margin-top: 4px;
 }
 .type-1159 .navbar {
   width: fit-content;
@@ -44,6 +45,11 @@
   font-weight: 300;
   line-height: 32px;
   padding: 5px 0;
+  margin-top: -16px;
+}
+.type-1159 .top-title .h2 {
+  width: 9px;
+  height: 9px;
 }
 .type-1159 .owl-carousel .owl-stage-outer {
   position: relative;
@@ -249,7 +255,7 @@
     display: none;
   }
 }
-div.stars {
+.stars {
   width: 270px;
   display: inline-block;
 }
