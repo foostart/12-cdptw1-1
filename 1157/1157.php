@@ -14,7 +14,7 @@
     $less->compileFile('less/1157.less', 'css/1157.css');
 ?>
 <!DOCTYPE html>
-<html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
     <head>
         <title>1157</title>
         <meta charset="UTF-8">
@@ -32,7 +32,6 @@
         <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
         <script src="<?php echo $url_path ?>/js/code.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/close-element-2.js"></script>
     </head>
     <body>   
          <?php  include'./1157-content.php'; ?>

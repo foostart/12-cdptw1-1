@@ -20,11 +20,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>1159</title>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link href="<?php echo $url_path?>/css/bootstrap.min.css" rel="stylesheet" style="text-css"/>
+        <link rel="stylesheet" href="<?php echo $url_path?>/css/bootstrap-theme/3.3.7.min.css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <script src=" <?php echo $url_path?> bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="<?php echo $url_path ?> /fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/1159.css">
         <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1159.js"></script>
