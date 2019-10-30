@@ -1,35 +1,33 @@
-<?php
-    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
-    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-    
-    preg_match_all($pattern_uri, __DIR__, $matches);
-    $url_path = $url_host . $matches[1][0];
-    $url_path = str_replace('\\', '/', $url_path);
-?>
 <div class="type-1151">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2">
-                
-            </div>
-            <div class=" col-md-10">
-                <div class="page-title">
-                    <div class="title_left">
-                        <h3>General Elements</h3>
-                    </div>
-                    <div class="title_right">
-                        <div class="col-md-5 col-sm-5 col-xs-12 pull-right ">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search for...">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button">Go!</button>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="container">
+<nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">General Elements</a>
     </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+                     <li><a href="#">Tin Tức</a></li>
+                    <li><a href="#">Sản Phẩm</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Seach for ....." aria-describedby="basic-addon2">
+                        <span class="input-group-addon" id="basic-addon2">Go!</span>
+                    </div>
+                </form>
+    </div><!-- /.navbar-collapse -->
+</nav>
 </div>
+</div>
+

@@ -1,47 +1,75 @@
-.style-641{
-    @width-3: 100%;
-    .testimonials_custom_block_3 {
+@width-3: 100%;
+.style-641{   
+    .prograti {
+        background-image: url(../images/5.jpg);  
         background-position: center !important;
         background-repeat: no-repeat;
         background-size: cover !important;
         width: @width-3;
-        height:980px;
-        
-        background-image: url(../images/5.jpg);
+        padding-top: 50%;
     }
-    .nuthai{
-        padding-right: 110px;
-        padding-left: 50px;
-        margin-top: -150px;
-        font-size: 2.5em;
+    .swiper-container{
+        margin-top: -40%;
     }
-    
-    .mySlides {
-        margin: auto;
-        padding-top: 100px;
-        padding-right: 70px;
-        margin-bottom: 10px;
-        height: 65%;
-        width: 65%; 
-    }
-    .w3-display-container{
+    .btn{
+        width: 100%;
         text-align: center;
         position: relative;
-
-    }
-    .w3-display-left {
-        background-color: #f6f7f3;
-        border: 21px solid #ddd; 
-        color: #96bd42;
-
-    }
-    .w3-display-right{
-        background-color: #f6f7f3;
+   .swiper-button-prev{
+            background-color: #f6f7f3;
         border: 21px solid #ddd;
         color: #96bd42;
-    }  
-    .w3-btn-floating:hover{
-        background: #edf032;
+        position: absolute;
+        left: 44%;
+            top: -108px;
+        }
+
+    
+    .swiper-button-next{
+        
+    background-color: #f6f7f3;
+    border: 21px solid #ddd;
+    color: #96bd42;
+    position: absolute;
+    right: 44%;
+        top: -108px;
+    }
+    .swiper-button-prev:after {
+        content: 'prev';
+        font-size: 27px;
+    }
+    .swiper-button-next:after{
+        content: 'next';
+        font-size: 27px;
+    }
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+
+        align-items: center;
     }
    
+
+}
+@media only screen and (max-width:680px)
+{
+    .style-641 .btn .swiper-button-next{
+        right:37% !important;
+    }
 }

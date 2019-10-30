@@ -8,15 +8,14 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-    <div class="type-1157">
+<div class="type-1157">
+    <button type="button" class="btn1 btn-info btn-lg" data-toggle="modal" data-target="#myModal">Module-1157</button>
+    <div class="modal fade" id="myModal" role="dialog">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2">
-                </div>
                 <div class="col-md-10">
                     <div class="row content5">
                         <div class="col-md-6">
-
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="x_panel5">
                                     <div class="x_title">
@@ -33,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a id="close-link5"><i class="fa fa-close"></i></a>
+                                            <li><a id="close-link5"> <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i></button></a>
                                             </li>
                                         </ul>
                                         <div class="clearfix"></div>
@@ -109,6 +108,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="modal-footer">
+                                        
+                                    </div>
                                 </div>
                             </div> 
                         </div> 
@@ -117,3 +119,4 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+</div>

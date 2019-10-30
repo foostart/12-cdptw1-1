@@ -1,6 +1,8 @@
 
 <div class="type-1158">
-    <div class="container-fluid">
+    <button type="button" class="btnn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Module-1158</button>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="row content6">
@@ -13,7 +15,7 @@
                                         </li>
                                         <li><a data-toggle="collapse" href="#element6" class="fa fa-wrench"></a>
                                         </li>
-                                        <li><a id="close-link6"><i class="fa fa-close"></i></a>
+                                        <li><a id="close-link6"><button type="button" class="btn1" data-dismiss="modal"><i class="fa fa-close"></i></button></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -25,12 +27,15 @@
                                     <button type="button" class="btn btn-default"> Bottom</button>
                                     <button type="button" class="btn btn-default"> Right</button>
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
                     </div>
                 </div>
             </div>
+           
         </div>
+        
     </div>
+    
 </div>
 

@@ -1,33 +1,26 @@
-.type-1151 .page-title .title_left {
-  width: 40%;
-  float: left;
+.type-1151 .navbar-default {
+  background: #fff;
+  border: none;
 }
-.type-1151 .page-title h3 {
-  color: #73879C;
+.type-1151 .navbar-default .input-group span {
+  background: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.type-1151 .page-title .title_right {
-  width: 55%;
-  float: right;
-  display: block;
+.type-1151 .navbar-default .input-group span:hover {
+  background: #40b7ec;
 }
-.type-1151 .page-title .pull-right {
-  margin: 20px 0 0 0;
+.type-1151 .navbar-default .input-group input {
+  border: none;
+  border-style: solid;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 0px;
+  border-color: #ccc;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-.type-1151 .page-title .input-group {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-.type-1151 .page-title .form-control {
-  border-radius: 25px 0 0 25px;
-  padding-left: 20px;
-  border: 1px solid rgba(221,226,232,0.49);
-}
-.type-1151 .page-title .input-group-btn button {
-  border-radius: 0 25px 25px 0;
-  border: 1px solid rgba(221,226,232,0.49);
-  border-left: 0;
-  color: #93A2B2;
-}
-.type-1151 .page-title .input-group-btn:hover {
-  background: #1994db;
+.type-1151 .navbar-default ul li a:hover {
+  color: #40b7ec;
 }

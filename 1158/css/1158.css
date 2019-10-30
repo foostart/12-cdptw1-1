@@ -59,6 +59,19 @@
   background: #afc43e;
   text-decoration: none;
 }
+.type-1158 .btnn {
+  margin-left: 45%;
+  margin-top: 16%;
+}
+button.btn1 {
+  border: 1px;
+  margin-top: -1px;
+  background: #fff;
+}
+button.btn1 i {
+  background: #fff;
+  color: #C5C7CB;
+}
 @media (max-width: 320px) {
   small {
     display: none;

@@ -20,19 +20,17 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/641.css" rel="stylesheet" type="text/css"/>
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/641.less', 'css/641.css');
-        ?>
-        <script src="js/jquery-2.1.4.min.js" ></script>
+        <script src="js/jquery-3.1.1.min.js" ></script>
         <script src="js/bootstrap.js" ></script>
+        <script src="js/641.js" type="text/javascript"></script>
+        <script src="js/swiper.min.js" type="text/javascript"></script>
+        <script src="js/swiper.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" ></script>
-
+        <link href="css/swiper.css" rel="stylesheet" type="text/css"/>
+        <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <?php  include'./641-content.php'; ?>
+        
     </body>
 </html>

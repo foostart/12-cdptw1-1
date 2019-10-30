@@ -1,58 +1,39 @@
 
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
 
-        <div class="style-641">
-            <div class="w3-content w3-display-container" backgoud>
-                <div class="sc_section margin_top_null margin_bottom_null aligncenter testimonials_custom_block_3">
-                    <img class="mySlides" src="images/8.png">
-                    <img class="mySlides" src="images/9.png">
-                    <img class="mySlides" src="images/10.png">
-                    <div class="nuthai">
-                        <a href="#" class="w3-btn-floating w3-display-left" onclick="plusDivs(-2)">&#10094;</a>
-                        <a class="w3-btn-floating w3-display-right" onclick="plusDivs(2)">&#10095;</a>
-                    </div>
-                </div>
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+
+$url_path = $url_host . $matches[1][0];
+
+$url_path = str_replace('\\', '/', $url_path);
+?>
+<div class="style-641">
+    <div class="prograti">
+    <div class="swiper-container">  
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="mySlides" src="images/8.png">
             </div>
+            <div class="swiper-slide">
+                <img class="mySlides" src="images/9.png"> 
+            </div>
+            <div class="swiper-slide">
+                <img class="mySlides" src="images/10.png">
+            </div>           
+        </div>       
+    </div>
+        <div class="btn">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>    
         </div>
-  
-            <script>
-                var myIndex = 0;
-                carousel();
+     </div>   
+    <!-- Add Arrows -->
 
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";
-                    }
-                    myIndex++;
-                    if (myIndex > x.length) {
-                        myIndex = 1
-                    }
-                    x[myIndex - 1].style.display = "block";
-                    setTimeout(carousel, 2000); // Change image every 2 seconds
-                }
-            </script>
-            <script>
-                var slideIndex = 1;
-                showDivs(slideIndex);
+</div>
 
-                function plusDivs(n) {
-                    showDivs(slideIndex += n);
-                }
-
-                function showDivs(n) {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    if (n > x.length) {
-                        slideIndex = 1
-                    }
-                    if (n < 1) {
-                        slideIndex = x.length
-                    }
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";
-                    }
-                    x[slideIndex - 1].style.display = "block";
-                }
-            </script>        
 

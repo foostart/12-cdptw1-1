@@ -1,54 +1,46 @@
-@comit : 13px;
+@background:#fff;
+@border-width:1px;
+@border-radius:20px;
+@blue:#40b7ec;
 .type-1151 {
-    @color:#73879C;
-    @padding-left:20px;
-    @border-left:0;
-    @width-left:40%;
-    @width-right:55%;
-    @margin:20px 0 0 0;
-    @margin-bottom: 20px;
-    @border-radius: 25px 0 0 25px;
-    @border: 1px solid rgba(221,226,232,.49);
-    @border-radius1: 0 25px 25px 0;
-    @color1: #93A2B2;
-    @background:#1994db;
-    .page-title{
-        .title_left {
-            width: @width-left;
-            float: left;
-           // display: block;
+    .navbar-default {
+        background: @background;
+        border: none;
+
+        .input-group{
+            span{
+                background: @background;
+                border-top-right-radius: @border-radius;
+                border-bottom-right-radius: @border-radius;
+                &:hover{
+                    background: @blue;
+                }
+            }
+            input{
+                border: none;
+                border-style: solid;
+                border-left-width: @border-width;
+                border-top-width: @border-width;
+                border-bottom-width: @border-width;
+                border-right-width: 0px;
+                border-color: #ccc;
+                border-top-left-radius: @border-radius;
+                border-bottom-left-radius: @border-radius;
+            }
         }
-        h3{
-            color:@color;
+        ul{
+            li{
+                a{
+                    &:hover{
+                        color:@blue; 
+                    }
+                }
+            }
         }
-        .title_right {
-            width: @width-right;
-            float: right;
-            display: block;
-        }
-        .pull-right {
-            margin: @margin;
-        }
-        .input-group {
-            margin-left: 20px;
-            
-            margin-bottom: @margin-bottom;
-        }
-        .form-control {
-            border-radius: @border-radius;
-            padding-left: @padding-left;
-            border: @border;
-        }
-        .input-group-btn button {
-            border-radius: @border-radius1; 
-            border: @border;
-            border-left: @border-left;
-            color: @color1;       
-        }  
-        .input-group-btn:hover{
-            background: @background;
-        }
+
     }
 }
+
+
 
 

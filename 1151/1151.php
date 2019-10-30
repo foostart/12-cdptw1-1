@@ -21,6 +21,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../1151/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../1151/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+         <link href="../1151/css/1151.css" rel="stylesheet" type="text/css" />
+
+         <script src="../1151/js/jquery-3.1.1.min.js"></script>
+        <script src="../1151/js/bootstrap.min.js"></script>
+
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -28,7 +33,7 @@
         $less = new lessc;
         $less->compileFile('less/1151.less', 'css/1151.css');
         ?>
-        <link href="../1151/css/1151.css" rel="stylesheet" type="text/css" />
+       
     </head>
     <body>   
             <?php  include'./1151-content.php'; ?>
