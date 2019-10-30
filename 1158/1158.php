@@ -22,7 +22,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>./css/bootstrap.min.css" rel="stylesheet"/>
         <link href="<?php echo $url_path ?>./css/font-awesome.min.css" rel="stylesheet"/>
-        <script src="<?php echo $url_path ?>./js/jquery.min.js" rel="stylesheet"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
